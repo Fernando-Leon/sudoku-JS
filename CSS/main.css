@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#table-player-game {
+    display: grid;
+    grid-gap: 3px;
+    padding: 10px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+}
+
+.items {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 1px;
+    border: 1px solid transparent;
+    transition: .3s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.items:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
